@@ -1,0 +1,15 @@
+{
+    "name": "xmaxjs-keygen",
+    "version": "0.0.1",
+    "description": "Xmax library for key management",
+    "main": "lib/index.js",
+    "author": {
+        "name": ""
+    },
+    "scripts": {
+     
+    },
+    "dependencies": {},
+    "devDependencies": {       
+    }
+}
