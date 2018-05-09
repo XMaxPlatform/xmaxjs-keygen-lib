@@ -3,26 +3,30 @@
     "version": "0.0.1",
     "description": "Xmax library for key management",
     "main": "lib/index.js",
+    "browser": "lib/browser.js",
     "author": {
         "name": ""
     },
     "scripts": {
         "test": "mocha --use_strict src/*.test.js",
-        "build_lib": "babel src --out-dir lib"
+        "build": "babel src --out-dir lib"
     },
     "dependencies": {
-        "xmaxjs-ecc": "file:../xmaxjs-ecc"
+        "xmaxjs-ecc": "file:../xmaxjs-ecc",
+        "history": "^4.7.2",
+        "localStorage": "^1.0.3",
+        "minimatch": "^3.0.4"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
         "babel-preset-es2015": "^6.24.1",
-        "browserify": "^14.4.0",        
+        "browserify": "^14.4.0",
         "mocha": "^3.4.2"
     },
     "babel": {
         "presets": [
-          "es2015"
+            "es2015"
         ]
-      }
+    }
 }
