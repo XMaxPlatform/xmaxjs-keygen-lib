@@ -10,12 +10,12 @@ module.exports = {
 }
 
 function isMasterKey(key) {
-  return /^PW/.test(key) && PrivateKey.isWif(key.substring(2))
+  return /^PW/.test(key) && PrivateKey.validWif(key.substring(2))
 }
 
 function keyType(key) {
   return isMasterKey(key) ? 'master' :
-    PrivateKey.isWif(key) ? 'wif' :
+    PrivateKey.validWif(key) ? 'wif' :
     PrivateKey.isValid(key) ? 'privateKey' :
     PublicKey.isValid(key) ? 'pubkey' :
     null
