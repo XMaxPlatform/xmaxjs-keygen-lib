@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-const {PrivateKey, PublicKey} = require('xmaxjs-ecc')
+const {PrivateKey, PublicKey} = require('xmaxjs-ecc-lib')
 
 module.exports = {
   keyType,

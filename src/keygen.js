@@ -2,7 +2,7 @@
 
 const assert = require('assert')
 
-const {PrivateKey} = require('xmaxjs-ecc')
+const {PrivateKey} = require('xmaxjs-ecc-lib')
 const validate = require('./validate')
 
 module.exports = {

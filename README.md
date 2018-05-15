@@ -1,1 +1,1 @@
-# xmaxjs-keygen
+# xmaxjs-keygen-lib

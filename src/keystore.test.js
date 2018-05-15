@@ -1,8 +1,8 @@
 /* eslint-env mocha */
 const assert = require('assert')
 const {accountPermissions, checkKeySet} = require('./test-utils.js')
-const {PrivateKey, Signature} = require('xmaxjs-ecc')
-const ecc = require('xmaxjs-ecc')
+const {PrivateKey, Signature} = require('xmaxjs-ecc-lib')
+const ecc = require('xmaxjs-ecc-lib')
 const config = require('./config')
 
 const Keystore = require('./keystore.js')

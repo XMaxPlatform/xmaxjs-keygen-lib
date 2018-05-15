@@ -1,8 +1,8 @@
 /** @module Keystore */
 
 const assert = require('assert')
-const {PrivateKey, Signature} = require('xmaxjs-ecc')
-const ecc = require('xmaxjs-ecc')
+const {PrivateKey, Signature} = require('xmaxjs-ecc-lib')
+const ecc = require('xmaxjs-ecc-lib')
 const minimatch = require('minimatch')
 
 const Keygen = require('./keygen')
