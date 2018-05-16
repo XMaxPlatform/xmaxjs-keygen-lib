@@ -12,7 +12,7 @@
         "build": "babel src --out-dir lib"
     },
     "dependencies": {
-        "xmaxjs-ecc-lib": "file:../xmaxjs-ecc-lib",
+        "xmaxjs-ecc-lib": "git+https://github.com/XMaxPlatform/xmaxjs-ecc-lib.git",
         "history": "^4.7.2",
         "localStorage": "^1.0.3",
         "minimatch": "^3.0.4"
